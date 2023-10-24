@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/img/svg/logo.svg" type="image/x-icon">
+    <title>Главная</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a href="/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="113" height="82" viewBox="0 0 113 82" fill="none">
+                            <path d="M15.1662 31.8279C15.1789 31.7874 15.2077 31.7514 15.2482 31.7254C15.2886 31.6994 15.3384 31.6849 15.39 31.6841C15.4416 31.6833 15.4921 31.6963 15.5337 31.721C15.5754 31.7457 15.6058 31.7807 15.6205 31.8208C16.1083 33.0728 16.9305 33.8511 18.0871 34.1556C18.1312 34.1668 18.1702 34.1884 18.1991 34.2176C18.228 34.2469 18.2455 34.2824 18.2493 34.3197C18.2532 34.3571 18.2432 34.3945 18.2207 34.4272C18.1981 34.4599 18.164 34.4864 18.1228 34.5033C16.7094 35.0901 15.9557 36.1001 15.5785 37.3497C15.5673 37.3928 15.5384 37.4315 15.4963 37.4595C15.4543 37.4874 15.4018 37.5029 15.3475 37.5034C15.2931 37.5039 15.2402 37.4893 15.1974 37.4621C15.1547 37.4349 15.1247 37.3967 15.1124 37.3538C14.6506 35.9326 13.8506 35.0063 12.6965 34.5937C12.6519 34.5798 12.6136 34.5551 12.5868 34.523C12.56 34.4909 12.546 34.453 12.5467 34.4142C12.5474 34.3755 12.5627 34.3379 12.5906 34.3064C12.6185 34.275 12.6577 34.2512 12.7028 34.2384C13.9182 33.8694 14.7477 33.0735 15.1662 31.8244M112.715 34.3622L59.9775 33.5065C61.8853 27.9496 63.0543 22.6233 63.3231 17.8623C63.8387 8.748 61.0601 2.63947 55.5016 0.65997C45.2267 -2.99906 28.8958 8.85154 16.6417 28.8942C16.3529 29.4275 16.2178 30.0071 16.2468 30.589C16.2757 31.1709 16.4679 31.7399 16.8089 32.2526C17.1498 32.7653 17.6304 33.2084 18.2142 33.5481C18.7981 33.8879 19.4698 34.1155 20.1784 34.2135L20.9741 34.3236L20.2743 34.4074C19.5538 34.4938 18.8678 34.7138 18.2696 35.0503C17.6714 35.3868 17.1771 35.8307 16.8255 36.3473C16.4738 36.8639 16.2741 37.4394 16.242 38.0288C16.2099 38.6183 16.3463 39.2057 16.6404 39.7454L20.9096 47.5822C21.0773 47.8902 21.3892 48.1315 21.7766 48.2531C22.1639 48.3748 22.5951 48.3668 22.9752 48.2309C23.3553 48.095 23.6532 47.8423 23.8034 47.5285C23.9535 47.2147 23.9436 46.8654 23.7759 46.5574L19.5055 38.7207C19.4064 38.5383 19.3605 38.3398 19.3715 38.1408C19.3824 37.9417 19.4499 37.7473 19.5687 37.5728C19.6876 37.3983 19.8545 37.2484 20.0565 37.1347C20.2585 37.021 20.4902 36.9466 20.7335 36.9173L29.1771 35.9022C29.6206 35.8495 30.0264 35.6704 30.3215 35.3971C30.6166 35.1238 30.7818 34.7742 30.7872 34.4111C30.7926 34.048 30.638 33.6952 30.3512 33.4161C30.0643 33.1371 29.664 32.9501 29.2222 32.8888L20.7016 31.7117C20.4622 31.6796 20.2351 31.6034 20.0377 31.489C19.8404 31.3746 19.678 31.2251 19.5632 31.0519C19.3282 30.6966 19.3082 30.2844 19.4767 29.9692C30.5586 11.8462 45.8125 -0.011029 54.2373 2.98614C58.4663 4.49106 60.6347 9.87175 60.1893 17.7481C59.9211 22.5045 58.7132 27.8608 56.7378 33.4567L34.5226 33.0963C32.4256 33.0735 32.4438 35.6575 34.5226 35.6342L56.0918 35.2839C54.6196 39.1331 52.876 42.9107 50.8698 46.5981C45.3357 56.8001 38.2592 65.7048 30.9408 71.6717C24.0804 77.2651 17.7168 79.61 13.4928 78.102C5.23715 75.1643 5.53601 58.3436 14.1444 39.8713C14.434 39.3382 14.5698 38.7587 14.5413 38.1768C14.5129 37.5948 14.321 37.0258 13.9803 36.5129C13.6397 36 13.1591 35.5569 12.5752 35.2171C11.9913 34.8773 11.3195 34.6499 10.6108 34.552L9.812 34.4429L10.5162 34.3582C11.2367 34.2718 11.9228 34.0519 12.5211 33.7154C13.1194 33.3789 13.6137 32.9351 13.9654 32.4184C14.3171 31.9017 14.5168 31.3262 14.5488 30.7368C14.5808 30.1473 14.4443 29.5598 14.15 29.0201L6.19322 14.4155C6.11016 14.263 5.99086 14.1253 5.8421 14.0101C5.69334 13.895 5.51804 13.8048 5.32623 13.7445C5.13442 13.6843 4.92985 13.6553 4.72418 13.6591C4.51852 13.6629 4.31579 13.6995 4.12758 13.7668C3.93937 13.8341 3.76938 13.9307 3.62728 14.0513C3.48519 14.1718 3.37378 14.3138 3.29943 14.4692C3.22508 14.6246 3.18924 14.7903 3.19395 14.9569C3.19866 15.1235 3.24383 15.2878 3.32688 15.4402L11.2837 30.0439C11.3828 30.2262 11.4287 30.4246 11.4179 30.6236C11.407 30.8227 11.3397 31.017 11.2211 31.1915C11.1025 31.3661 10.9358 31.5161 10.734 31.63C10.5323 31.7439 10.3008 31.8186 10.0576 31.8482L1.60583 32.8634C1.16254 32.9169 0.757324 33.0967 0.463001 33.3705C0.168677 33.6443 0.0045468 33.9942 9.30729e-05 34.3573C-0.00436065 34.7204 0.151155 35.0728 0.438703 35.3513C0.726251 35.6299 1.12698 35.8162 1.56887 35.8768L10.0852 37.0538C10.3245 37.0862 10.5515 37.1624 10.7488 37.2768C10.9461 37.3912 11.1085 37.5406 11.2236 37.7137C11.4585 38.0689 11.4786 38.4806 11.2467 38.911C1.71235 59.3658 2.12648 76.826 12.2335 80.4257C13.5014 80.8717 14.8704 81.0981 16.2526 81.0901C21.1608 81.0901 27.0131 78.4746 33.1649 73.4599C40.7458 67.2782 48.0542 58.1005 53.7392 47.6188C55.9295 43.5884 57.8108 39.4523 59.3723 35.2342L112.715 34.3622Z" fill="#010082"/>
+                        </svg>
+                    </a>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a href="#!" class="header__menu-link">О регионе</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#!" class="header__menu-link">Туристу</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#!" class="header__menu-link">Афиша</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#!" class="header__menu-link">Путеводители</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#!" class="header__menu-link">Медиа</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#!" class="header__menu-link">Помощь</a>
+                        </li>
+                    </ul> 
+                </nav>
+                <div class="header__action">
+                    <div class="header__action-item">
+                        <a href="#!" class="header__action-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="28" viewBox="0 0 29 28" fill="none">
+                                <path d="M11.3984 19.25C15.7477 19.25 19.2734 15.7242 19.2734 11.375C19.2734 7.02576 15.7477 3.5 11.3984 3.5C7.04919 3.5 3.52344 7.02576 3.52344 11.375C3.52344 15.7242 7.04919 19.25 11.3984 19.25Z" stroke="#00002E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M24.5234 24.5L17.5234 17.5" stroke="#00002E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header__action-item">
+                        <a href="#!" class="header__action-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="41" height="22" viewBox="0 0 41 22" fill="none">
+                                <path d="M24.8334 21.2342H21.9014L19.3143 15.9681H5.93321L3.34611 21.2342H0.414062L11.0355 0H14.2119L24.8334 21.2342ZM12.6309 2.36408L7.03991 13.7173H18.2076L12.6309 2.36408Z" fill="#00002E"/>
+                                <path d="M40.7593 21.2347H39.102L37.6398 18.075H30.0765L28.6143 21.2347H26.957L32.9605 8.49414H34.7558L40.7593 21.2347ZM33.8622 9.91259L30.7021 16.7245H37.0142L33.8622 9.91259Z" fill="#00002E"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header__action-item">
+                        <a href="#!" class="header__action-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <mask id="mask0_815_821" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
+                                    <rect x="0.835938" width="31.158" height="31.158" fill="#D9D9D9"/>
+                                </mask>
+                                <g mask="url(#mask0_815_821)">
+                                    <path d="M16.4147 27.263C14.8069 27.263 13.2923 26.9555 11.8708 26.3405C10.4494 25.7255 9.21152 24.8908 8.1571 23.8364C7.10269 22.782 6.26798 21.5441 5.65297 20.1227C5.03797 18.7013 4.73047 17.1866 4.73047 15.5788C4.73047 13.966 5.03797 12.4501 5.65297 11.0312C6.26798 9.61226 7.10269 8.37559 8.1571 7.32117C9.21152 6.26675 10.4494 5.43204 11.8708 4.81704C13.2923 4.20203 14.8069 3.89453 16.4147 3.89453C18.0276 3.89453 19.5434 4.20203 20.9623 4.81704C22.3813 5.43204 23.6179 6.26675 24.6723 7.32117C25.7268 8.37559 26.5615 9.61226 27.1765 11.0312C27.7915 12.4501 28.099 13.966 28.099 15.5788C28.099 17.1866 27.7915 18.7013 27.1765 20.1227C26.5615 21.5441 25.7268 22.782 24.6723 23.8364C23.6179 24.8908 22.3813 25.7255 20.9623 26.3405C19.5434 26.9555 18.0276 27.263 16.4147 27.263ZM16.4147 25.9748C17.177 24.9961 17.8054 24.0349 18.2997 23.0912C18.794 22.1474 19.196 21.0914 19.5056 19.9229H13.3239C13.6668 21.1579 14.077 22.2473 14.5547 23.1911C15.0324 24.1348 15.6524 25.0627 16.4147 25.9748ZM14.762 25.7801C14.1561 25.066 13.6031 24.1835 13.1029 23.1324C12.6028 22.0813 12.2304 21.0115 11.9857 19.9229H7.00741C7.75141 21.5374 8.80624 22.8615 10.1719 23.8951C11.5375 24.9287 13.0676 25.557 14.762 25.7801ZM18.0675 25.7801C19.7619 25.557 21.2919 24.9287 22.6576 23.8951C24.0232 22.8615 25.078 21.5374 25.822 19.9229H20.8438C20.5159 21.0281 20.1019 22.1062 19.6017 23.1573C19.1015 24.2084 18.5901 25.0827 18.0675 25.7801ZM6.47811 18.6247H11.7161C11.6179 18.0921 11.5484 17.5732 11.5076 17.068C11.4668 16.5629 11.4464 16.0665 11.4464 15.5788C11.4464 15.0911 11.4668 14.5947 11.5076 14.0895C11.5484 13.5844 11.6179 13.0655 11.7161 12.5329H6.47811C6.33664 12.9823 6.22638 13.472 6.14732 14.0022C6.06825 14.5323 6.02872 15.0578 6.02872 15.5788C6.02872 16.0998 6.06825 16.6253 6.14732 17.1554C6.22638 17.6855 6.33664 18.1753 6.47811 18.6247ZM13.0143 18.6247H19.8151C19.9134 18.0921 19.9828 17.5815 20.0236 17.093C20.0644 16.6045 20.0848 16.0998 20.0848 15.5788C20.0848 15.0578 20.0644 14.5531 20.0236 14.0646C19.9828 13.5761 19.9134 13.0655 19.8151 12.5329H13.0143C12.9161 13.0655 12.8466 13.5761 12.8059 14.0646C12.7651 14.5531 12.7447 15.0578 12.7447 15.5788C12.7447 16.0998 12.7651 16.6045 12.8059 17.093C12.8466 17.5815 12.9161 18.0921 13.0143 18.6247ZM21.1134 18.6247H26.3513C26.4928 18.1753 26.6031 17.6855 26.6821 17.1554C26.7612 16.6253 26.8007 16.0998 26.8007 15.5788C26.8007 15.0578 26.7612 14.5323 26.6821 14.0022C26.6031 13.472 26.4928 12.9823 26.3513 12.5329H21.1134C21.2116 13.0655 21.2811 13.5844 21.3219 14.0895C21.3627 14.5947 21.383 15.0911 21.383 15.5788C21.383 16.0665 21.3627 16.5629 21.3219 17.068C21.2811 17.5732 21.2116 18.0921 21.1134 18.6247ZM20.8438 11.2346H25.822C25.0614 9.58686 24.0191 8.26281 22.695 7.26249C21.371 6.26218 19.8285 5.62554 18.0675 5.35256C18.6733 6.14982 19.218 7.06151 19.7015 8.08762C20.1851 9.11374 20.5658 10.1627 20.8438 11.2346ZM13.3239 11.2346H19.5056C19.1627 10.0163 18.7399 8.91443 18.2373 7.92911C17.7346 6.94375 17.1271 6.02832 16.4147 5.18279C15.7024 6.02832 15.0948 6.94375 14.5922 7.92911C14.0895 8.91443 13.6668 10.0163 13.3239 11.2346ZM7.00741 11.2346H11.9857C12.2636 10.1627 12.6444 9.11374 13.1279 8.08762C13.6114 7.06151 14.1561 6.14982 14.762 5.35256C12.9843 5.62554 11.4377 6.26635 10.1219 7.27498C8.80623 8.28361 7.76805 9.6035 7.00741 11.2346Z" fill="#00002E"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="burger">
+                    <div>—</div>
+                    <div>—</div>
+                    <div>—</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <p class="main__paragraph-subtitle">Туристический портал</p>
+            <h1 class="main__paragraph-title">Запорожской области</h1>
+        </div>
+            <section class="festival">
+                <div class="owl-carousel owl-theme festiavl__carousel" id="festival__slider">
+                    <div class="slide festival__slide">
+                        <img src="/assets/img/festival__background.png" alt="">
+                        <div class="container">
+                            <div class="festival__texts-wrapper container">
+                                <div class="fisetival__texts">
+                                    <div class="festival__slide-title">Фестиваль «Море черешни»1</div>
+                                    <div class="festival__slide-city">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                            <mask id="mask0_478_471" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="19" height="19">
+                                            <rect width="19" height="19" fill="#D9D9D9"/>
+                                            </mask>
+                                            <g mask="url(#mask0_478_471)">
+                                            <path d="M9.5013 9.50065C9.93672 9.50065 10.3095 9.34562 10.6195 9.03555C10.9296 8.72548 11.0846 8.35273 11.0846 7.91732C11.0846 7.4819 10.9296 7.10916 10.6195 6.79909C10.3095 6.48902 9.93672 6.33398 9.5013 6.33398C9.06589 6.33398 8.69314 6.48902 8.38307 6.79909C8.073 7.10916 7.91797 7.4819 7.91797 7.91732C7.91797 8.35273 8.073 8.72548 8.38307 9.03555C8.69314 9.34562 9.06589 9.50065 9.5013 9.50065ZM9.5013 17.4173C7.377 15.6097 5.79036 13.9307 4.74141 12.3803C3.69245 10.83 3.16797 9.39509 3.16797 8.07565C3.16797 6.09648 3.8046 4.51975 5.07786 3.34544C6.35113 2.17114 7.82561 1.58398 9.5013 1.58398C11.177 1.58398 12.6515 2.17114 13.9247 3.34544C15.198 4.51975 15.8346 6.09648 15.8346 8.07565C15.8346 9.39509 15.3102 10.83 14.2612 12.3803C13.2122 13.9307 11.6256 15.6097 9.5013 17.4173Z" fill="white"/>
+                                            </g>
+                                        </svg>
+                                        МЕЛИТОПОЛЬ
+                                    </div>
+                                </div>
+                                <div class="festival__texts-afisha">АФИША</div>
+                            </div>
+                            <div class="festival__date">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                    <mask id="mask0_478_467" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                                      <rect x="0.59375" y="0.5" width="24" height="24" fill="#D9D9D9"/>
+                                    </mask>
+                                    <g mask="url(#mask0_478_467)">
+                                      <path d="M5.90145 22.0001C5.39632 22.0001 4.96875 21.8251 4.61875 21.4751C4.26875 21.1251 4.09375 20.6975 4.09375 20.1924V6.80784C4.09375 6.30271 4.26875 5.87514 4.61875 5.52514C4.96875 5.17514 5.39632 5.00014 5.90145 5.00014H7.28608V2.88477H8.8245V5.00014H16.4014V2.88477H17.9014V5.00014H19.286C19.7911 5.00014 20.2187 5.17514 20.5687 5.52514C20.9187 5.87514 21.0937 6.30271 21.0937 6.80784V20.1924C21.0937 20.6975 20.9187 21.1251 20.5687 21.4751C20.2187 21.8251 19.7911 22.0001 19.286 22.0001H5.90145ZM5.90145 20.5001H19.286C19.3629 20.5001 19.4335 20.4681 19.4976 20.404C19.5617 20.3398 19.5937 20.2693 19.5937 20.1924V10.8078H5.59372V20.1924C5.59372 20.2693 5.62577 20.3398 5.68987 20.404C5.75399 20.4681 5.82452 20.5001 5.90145 20.5001Z" fill="white"/>
+                                    </g>
+                                </svg>
+                                29.08–14.09
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide festival__slide">
+                        <img src="/assets/img/festival__background.png" alt="">
+                        <div class="container">
+                            <div class="festival__texts-wrapper container">
+                                <div class="fisetival__texts">
+                                    <div class="festival__slide-title">Фестиваль «Море черешни»2</div>
+                                    <div class="festival__slide-city">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                            <mask id="mask0_478_471" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="19" height="19">
+                                            <rect width="19" height="19" fill="#D9D9D9"/>
+                                            </mask>
+                                            <g mask="url(#mask0_478_471)">
+                                            <path d="M9.5013 9.50065C9.93672 9.50065 10.3095 9.34562 10.6195 9.03555C10.9296 8.72548 11.0846 8.35273 11.0846 7.91732C11.0846 7.4819 10.9296 7.10916 10.6195 6.79909C10.3095 6.48902 9.93672 6.33398 9.5013 6.33398C9.06589 6.33398 8.69314 6.48902 8.38307 6.79909C8.073 7.10916 7.91797 7.4819 7.91797 7.91732C7.91797 8.35273 8.073 8.72548 8.38307 9.03555C8.69314 9.34562 9.06589 9.50065 9.5013 9.50065ZM9.5013 17.4173C7.377 15.6097 5.79036 13.9307 4.74141 12.3803C3.69245 10.83 3.16797 9.39509 3.16797 8.07565C3.16797 6.09648 3.8046 4.51975 5.07786 3.34544C6.35113 2.17114 7.82561 1.58398 9.5013 1.58398C11.177 1.58398 12.6515 2.17114 13.9247 3.34544C15.198 4.51975 15.8346 6.09648 15.8346 8.07565C15.8346 9.39509 15.3102 10.83 14.2612 12.3803C13.2122 13.9307 11.6256 15.6097 9.5013 17.4173Z" fill="white"/>
+                                            </g>
+                                        </svg>
+                                        МЕЛИТОПОЛЬ
+                                    </div>
+                                </div>
+                                <div class="festival__texts-afisha">АФИША</div>
+                            </div>
+                            <div class="festival__date">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                    <mask id="mask0_478_467" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                                      <rect x="0.59375" y="0.5" width="24" height="24" fill="#D9D9D9"/>
+                                    </mask>
+                                    <g mask="url(#mask0_478_467)">
+                                      <path d="M5.90145 22.0001C5.39632 22.0001 4.96875 21.8251 4.61875 21.4751C4.26875 21.1251 4.09375 20.6975 4.09375 20.1924V6.80784C4.09375 6.30271 4.26875 5.87514 4.61875 5.52514C4.96875 5.17514 5.39632 5.00014 5.90145 5.00014H7.28608V2.88477H8.8245V5.00014H16.4014V2.88477H17.9014V5.00014H19.286C19.7911 5.00014 20.2187 5.17514 20.5687 5.52514C20.9187 5.87514 21.0937 6.30271 21.0937 6.80784V20.1924C21.0937 20.6975 20.9187 21.1251 20.5687 21.4751C20.2187 21.8251 19.7911 22.0001 19.286 22.0001H5.90145ZM5.90145 20.5001H19.286C19.3629 20.5001 19.4335 20.4681 19.4976 20.404C19.5617 20.3398 19.5937 20.2693 19.5937 20.1924V10.8078H5.59372V20.1924C5.59372 20.2693 5.62577 20.3398 5.68987 20.404C5.75399 20.4681 5.82452 20.5001 5.90145 20.5001Z" fill="white"/>
+                                    </g>
+                                </svg>
+                                29.08–14.09
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide festival__slide">
+                        <img src="/assets/img/festival__background.png" alt="">
+                        <div class="container">
+                            <div class="festival__texts-wrapper container">
+                                <div class="fisetival__texts">
+                                    <div class="festival__slide-title">Фестиваль «Море черешни»3</div>
+                                    <div class="festival__slide-city">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                            <mask id="mask0_478_471" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="19" height="19">
+                                            <rect width="19" height="19" fill="#D9D9D9"/>
+                                            </mask>
+                                            <g mask="url(#mask0_478_471)">
+                                            <path d="M9.5013 9.50065C9.93672 9.50065 10.3095 9.34562 10.6195 9.03555C10.9296 8.72548 11.0846 8.35273 11.0846 7.91732C11.0846 7.4819 10.9296 7.10916 10.6195 6.79909C10.3095 6.48902 9.93672 6.33398 9.5013 6.33398C9.06589 6.33398 8.69314 6.48902 8.38307 6.79909C8.073 7.10916 7.91797 7.4819 7.91797 7.91732C7.91797 8.35273 8.073 8.72548 8.38307 9.03555C8.69314 9.34562 9.06589 9.50065 9.5013 9.50065ZM9.5013 17.4173C7.377 15.6097 5.79036 13.9307 4.74141 12.3803C3.69245 10.83 3.16797 9.39509 3.16797 8.07565C3.16797 6.09648 3.8046 4.51975 5.07786 3.34544C6.35113 2.17114 7.82561 1.58398 9.5013 1.58398C11.177 1.58398 12.6515 2.17114 13.9247 3.34544C15.198 4.51975 15.8346 6.09648 15.8346 8.07565C15.8346 9.39509 15.3102 10.83 14.2612 12.3803C13.2122 13.9307 11.6256 15.6097 9.5013 17.4173Z" fill="white"/>
+                                            </g>
+                                        </svg>
+                                        МЕЛИТОПОЛЬ
+                                    </div>
+                                </div>
+                                <div class="festival__texts-afisha">АФИША</div>
+                            </div>
+                            <div class="festival__date">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                    <mask id="mask0_478_467" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                                      <rect x="0.59375" y="0.5" width="24" height="24" fill="#D9D9D9"/>
+                                    </mask>
+                                    <g mask="url(#mask0_478_467)">
+                                      <path d="M5.90145 22.0001C5.39632 22.0001 4.96875 21.8251 4.61875 21.4751C4.26875 21.1251 4.09375 20.6975 4.09375 20.1924V6.80784C4.09375 6.30271 4.26875 5.87514 4.61875 5.52514C4.96875 5.17514 5.39632 5.00014 5.90145 5.00014H7.28608V2.88477H8.8245V5.00014H16.4014V2.88477H17.9014V5.00014H19.286C19.7911 5.00014 20.2187 5.17514 20.5687 5.52514C20.9187 5.87514 21.0937 6.30271 21.0937 6.80784V20.1924C21.0937 20.6975 20.9187 21.1251 20.5687 21.4751C20.2187 21.8251 19.7911 22.0001 19.286 22.0001H5.90145ZM5.90145 20.5001H19.286C19.3629 20.5001 19.4335 20.4681 19.4976 20.404C19.5617 20.3398 19.5937 20.2693 19.5937 20.1924V10.8078H5.59372V20.1924C5.59372 20.2693 5.62577 20.3398 5.68987 20.404C5.75399 20.4681 5.82452 20.5001 5.90145 20.5001Z" fill="white"/>
+                                    </g>
+                                </svg>
+                                29.08–14.09
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="zaporojskaya__area">
+                <div class="container">
+                    <div class="zaporojskaya__area-wrapper">
+                        <div class="area__image">
+                            <img src="/assets/img/zaporojskaya__area.png" alt="area" class="zaporojskaya__area-image">
+                        </div>
+                        <div class="area__texts">
+                            <h2 class="area__text-title">Запорожская область</h2>
+                            <div class="area__text-subtitle">Сейчас численность населения Запорожской области — более 660 тысяч человек, значительная часть которых проживает в крупнейших городах — Мелитополе, Бердянске, Энергодаре, Токмаке.</div>
+                            <div class="area__text-subtitle">Регион славится своей полиэтничностью — более 130 разных народов входят в его национальный состав. Кроме того, на территории живут представители 50 религиозных направлений и течений.</div>
+                            <button class="area__text-button"><a href="#!" class="area__text-button-link">Подробнее о регионе</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="tourist">
+                <div class="container">
+                    <div class="tourist__title">ПОЛЕЗНОЕ</div>
+                    <div class="tourist__subtitle">ТУРИСТУ</div>
+                </div>
+                <div class="owl-carousel owl-theme tourist__carousel" id="tourist__slider">
+                    <div class="slide tourist__slide">
+                        <div class="tourist-element">
+                            <a href="#!" class="tourist-link">
+                                <img src="/assets/img/tourist__one.png" alt="" class="tourist-link-image">
+                                <div class="tourist-texts-title">Куда поехать</div>
+                                <div class="tourist-texts-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M1.84458 14.5762L14.5781 1.84263" stroke="#00002E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M1.84458 1.84263L14.5781 1.84263L14.5781 14.5762" stroke="#00002E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide tourist__slide">
+                        <div class="tourist-element">
+                            <a href="#!" class="tourist-link">
+                                <img src="/assets/img/tourist__one.png" alt="" class="tourist-link-image">
+                                <div class="tourist-texts-title">Где остановиться</div>
+                                <div class="tourist-texts-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M1.84458 14.5762L14.5781 1.84263" stroke="#00002E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M1.84458 1.84263L14.5781 1.84263L14.5781 14.5762" stroke="#00002E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide tourist__slide">
+                        <div class="tourist-element">
+                            <a href="#!" class="tourist-link">
+                                <img src="/assets/img/tourist__one.png" alt="" class="tourist-link-image">
+                                <div class="tourist-texts-title">Чем заняться</div>
+                                <div class="tourist-texts-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M1.84458 14.5762L14.5781 1.84263" stroke="#00002E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M1.84458 1.84263L14.5781 1.84263L14.5781 14.5762" stroke="#00002E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide tourist__slide">
+                        <div class="tourist-element">
+                            <a href="#!" class="tourist-link">
+                                <img src="/assets/img/tourist__one.png" alt="" class="tourist-link-image">
+                                <div class="tourist-texts-title">Что посетить</div>
+                                <div class="tourist-texts-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M1.84458 14.5762L14.5781 1.84263" stroke="#00002E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M1.84458 1.84263L14.5781 1.84263L14.5781 14.5762" stroke="#00002E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide tourist__slide">
+                        <div class="tourist-element">
+                            <a href="#!" class="tourist-link">
+                                <img src="/assets/img/tourist__one.png" alt="" class="tourist-link-image">
+                                <div class="tourist-texts-title">Что увезти с собой</div>
+                                <div class="tourist-texts-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M1.84458 14.5762L14.5781 1.84263" stroke="#00002E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M1.84458 1.84263L14.5781 1.84263L14.5781 14.5762" stroke="#00002E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="longreed">
+                <div>
+                    <img src="/assets/img/background__longreed.png" alt="лонгрид" class="longreed__image">
+                </div>
+                
+                <div class="container">
+                    <div class="longreed__wrapper">
+                        <div class="longreed__texts-wrapper">
+                            <div class="longreed__title">Лонгриды</div>
+                            <div class="longreed__subtitle">5 музеев мелитополя</div>
+                            <div class="longreed__description">Современная культура Запорожской области развивается динамично: в регионе действует 341 учреждение культуры, общее количество посещений которых за 2022 год составило порядка 300 тысяч человек.</div>
+                            <button class="longreed-button"><a href="#!" class="longreed-button-link">Подробнее</a></button>
+                            <a href="#!" class="longreed__link-see">Смотреть все материалы</a>                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="events__area">
+                <div class="container">
+                    <div class="events__area-title">Афиша</div>
+                    <div class="events__area-subtitle">События в области</div>
+                    <div class="events__area-wrapper">
+                        <div class="events__area-element">
+                            <div class="events__area-image">
+                                <div class="events__area-date">29.08-14.09</div>
+                                <img src="/assets/img/more__chereshni.png" class="events__area-img" alt="">
+                            </div>
+                            <div class="events__area-element-title">Фестиваль «Море черешни»</div>
+                            <div class="events__area-element-subtitle">Главная идея фестиваля – объединение уникальных особенностей региона: гостеприимства, мелитопольской черешни и ласкового Азовского моря...</div>
+                        </div>
+                        <div class="events__area-element">
+                            <div class="events__area-image">
+                                <div class="events__area-date">29.08-14.09</div>
+                                <img src="/assets/img/more__chereshni.png" class="events__area-img" alt="">
+                            </div>
+                            <div class="events__area-element-title">Фестиваль «Море черешни»</div>
+                            <div class="events__area-element-subtitle">Главная идея фестиваля – объединение уникальных особенностей региона: гостеприимства, мелитопольской черешни и ласкового Азовского моря...</div>
+                        </div>
+                        <div class="events__area-element">
+                            <div class="events__area-image">
+                                <div class="events__area-date">29.08-14.09</div>
+                                <img src="/assets/img/more__chereshni.png" class="events__area-img" alt="">
+                            </div>
+                            <div class="events__area-element-title">Фестиваль «Море черешни»</div>
+                            <div class="events__area-element-subtitle">Главная идея фестиваля – объединение уникальных особенностей региона: гостеприимства, мелитопольской черешни и ласкового Азовского моря...</div>
+                        </div>
+                    </div>
+                    <button class="events__area-button"><a href="#!" class="events__area-link">Календарь событий</a></button>
+                </div>
+            </section>
+            <section class="routes__area">
+                <div class="container">
+                    <div class="routes__area-title">Путеводители</div>
+                    <div class="routes__area-subtitle">Маршруты области</div>
+                    <div class="router__area-wrapper">
+                        <div class="router__area-element">
+                            <a href="#!" class="router__area-link">
+                                <img src="/assets/img/routes__one.png" alt="" class="router__area-link-image">
+                                <div class="router__area-texts">
+                                    <div class="router__area-texts-title">Мелитополь</div>
+                                    <div class="router__area-texts-subtitle">Агропромышленная и культурная столица области</div>
+                                </div>
+                                <div class="router__area-texts-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M1.84458 14.5762L14.5781 1.84263" stroke="#00002E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M1.84458 1.84263L14.5781 1.84263L14.5781 14.5762" stroke="#00002E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="router__area-element">
+                            <a href="#!" class="router__area-link">
+                                <img src="/assets/img/routes__one.png" alt="" class="router__area-link-image">
+                                <div class="router__area-texts">
+                                    <div class="router__area-texts-title">Мелитополь</div>
+                                    <div class="router__area-texts-subtitle">Агропромышленная и культурная столица области</div>
+                                </div>
+                                <div class="router__area-texts-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M1.84458 14.5762L14.5781 1.84263" stroke="#00002E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M1.84458 1.84263L14.5781 1.84263L14.5781 14.5762" stroke="#00002E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="routes__area-button">
+                        <a href="#!" class="routes__area-button-link">Скачать путеводители</a>
+                    </button>
+                </div>
+            </section>
+            <section class="media">
+                <div class="owl-carousel owl-theme media__carousel" id="media__slider">
+                    <div class="slide media__slide">
+                        <img src="/assets/img/media__background.png" alt="" class="media__image">
+                        <div class="container">
+                            <div class="media__texts-wrapper container">
+                                <div class="media__text">
+                                    <div class="media__text-title">БЕРДЯНСК, ПРИМОРСКАЯ ПЛОЩАДЬ</div>
+                                    <button class="media__text-button">
+                                        <a href="#!" class="media__text-button-link">ГАЛЕРЕЯ ОБЛАСТИ</a>
+                                    </button>
+                                </div>
+                                <div class="media__text-subtitle">
+                                    Запорожская область является одним из самых интересных регионов для туристов, благодаря теплым водам Азовского моря, комфортному для отдыха климату, целебным источникам и местам для досуга.
+                                </div>
+                            </div>
+                            <div class="media__name">МЕДИА 1</div>
+                                    
+                        </div>
+                    </div>
+                    <div class="slide media__slide">
+                        <img src="/assets/img/media__background.png" alt="" class="media__image">
+                        <div class="container">
+                            <div class="media__texts-wrapper container">
+                                <div class="media__text">
+                                    <div class="media__text-title">БЕРДЯНСК, ПРИМОРСКАЯ ПЛОЩАДЬ</div>
+                                    <button class="media__text-button">
+                                        <a href="#!" class="media__text-button-link">ГАЛЕРЕЯ ОБЛАСТИ</a>
+                                    </button>
+                                </div>
+                                <div class="media__text-subtitle">
+                                    Запорожская область является одним из самых интересных регионов для туристов, благодаря теплым водам Азовского моря, комфортному для отдыха климату, целебным источникам и местам для досуга.
+                                </div>
+                            </div>
+                            <div class="media__name">МЕДИА 2</div>
+                                    
+                        </div>
+                    </div>
+                    <div class="slide media__slide">
+                        <img src="/assets/img/media__background.png" alt="" class="media__image">
+                        <div class="container">
+                            <div class="media__texts-wrapper container">
+                                <div class="media__text">
+                                    <div class="media__text-title">БЕРДЯНСК, ПРИМОРСКАЯ ПЛОЩАДЬ</div>
+                                    <button class="media__text-button">
+                                        <a href="#!" class="media__text-button-link">ГАЛЕРЕЯ ОБЛАСТИ</a>
+                                    </button>
+                                </div>
+                                <div class="media__text-subtitle">
+                                    Запорожская область является одним из самых интересных регионов для туристов, благодаря теплым водам Азовского моря, комфортному для отдыха климату, целебным источникам и местам для досуга.
+                                </div>
+                            </div>
+                            <div class="media__name">МЕДИА 3</div>
+                                    
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="usefull__information">
+                <div class="container">
+                    <div class="usefull__information-wrapper">
+                        <div class="usefull__informantion-texts">
+                            <div class="usefull__information-title">Помощь</div>
+                            <div class="usefull__information-subtitle">Полезная информация</div>
+                            <div class="usefull__information-description">Чтобы посещение нашего края было комфортным и безопасным, мы собрали всю необходимую информацию для туристических поездок в Запорожскую область.</div>
+                            <div class="usefull__informantion-elements">
+                                <div class="usefull__informantion-element">
+                                    Транспорт
+                                    <img src="/assets/img/svg/airport_shuttle.svg" alt="">
+                                </div>
+                                <div class="usefull__informantion-element">
+                                    Связь
+                                    <img src="/assets/img/svg/wifi.svg" alt="">
+                                </div>
+                                <div class="usefull__informantion-element">
+                                    Безопасность
+                                    <img src="/assets/img/svg/local_hospital.svg" alt="">
+                                </div>
+                                <div class="usefull__informantion-element">
+                                    Тиц
+                                    <img src="/assets/img/svg/tic.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="usefull__information-extra">
+                                <div class="usefull__information-extra-title">Контакты для экстренной связи</div>
+                                <div class="usefull__information-extra-subtitle">В случае возникновения опасности жизни и здоровью, эекстренных ситуаций и других обстоятельств требующих экстренного вмешательства</div>
+                                <a href="tel:+78003291212" class="usefull__information-extra-link">+7 800 329 1212</a>
+                            </div>
+                        </div>
+                        <div class="usefull__informantion-image">
+                            <img src="/assets/img/usefull__information.png" alt="" class="usefull__informantion-image">
+                        </div>
+                    </div>                    
+                </div>
+            </section>
+            <section class="place__relax">
+                <img src="/assets/img/background__place__relax.png" alt="" class="place__relax-background-image">
+                <div class="container test">
+                    <div class="place__relax-texts">
+                        <div class="place__relax-chill">Место для отдыха</div>
+                        <div class="place__relax-live">Место для жизни</div>
+                        <div class="place__relax-subcribe">Подпишитесь на нашу рассылку, чтобы получать новости об актуальных событиях Запорожской области.</div>
+                        <div>
+                            <input class="place__relax-input-mail" type="email" name="" id="" placeholder="name@email.ru">
+                            <button class="place__relax-button">Подписаться на рассылку</button>
+                        </div>
+                        <div class="place__relax-news">Самые свежие новости смотрите в нашем телеграм-канале</div>
+                        <div class="place__relax-link">
+                            <a href="#!" class="place__relax-link-telegram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                    <g clip-path="url(#clip0_483_3911)">
+                                    <path d="M24 0.75C11.1555 0.75 0.75 11.157 0.75 24C0.75 36.843 11.157 47.25 24 47.25C36.8445 47.25 47.25 36.843 47.25 24C47.25 11.157 36.843 0.75 24 0.75ZM35.4195 16.6785L31.6035 34.6605C31.3215 35.9355 30.5625 36.2445 29.5035 35.6445L23.691 31.3605L20.8875 34.0605C20.5785 34.3695 20.316 34.632 19.716 34.632L20.1285 28.716L30.9 18.984C31.3695 18.5715 30.7965 18.3375 30.177 18.75L16.8645 27.1305L11.127 25.3395C9.8805 24.9465 9.852 24.093 11.3895 23.493L33.8055 14.8485C34.8465 14.4735 35.7555 15.102 35.418 16.677L35.4195 16.6785Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_483_3911">
+                                    <rect width="48" height="48" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__logo">
+                    <a href="#!" class="footer_logo-link">
+                        <img src="/assets/img/svg/footer__logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">О регионе</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">Путеводители</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">Афиша</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">ТИЦ</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">Туристу</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">Куда поехать</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">Где остановиться</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">Чем заняться</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">Чем посетить</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">Что увезти с собой </a>
+                        </li>
+                    </ul>
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">Медиа</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">Новости</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">Лонгриды</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">Галерея</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">Инфографика  </a>
+                        </li>
+                    </ul>
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">Помощь</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">Транспорт</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">Связь</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">Безопасность</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#!" class="footer__nav-item-link">ТИЦ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="footer__button">
+                <a href="#!" class="footer__button-link">Для представителей туротрасли</a>
+            </button>
+            <div class="footer__mail">
+                <a href="mailto:adm@minturizm.zo.gov.ru" class="footer__mail-link">adm@minturizm.zo.gov.ru</a>
+            </div>
+            <div class="footer__information">
+                <div class="footer__information-street">
+                    Российская Федерация, Запорожская область, г. Мелитополь, ул. Екатерины Великой, 108д
+                </div>
+                <div class="footer__information-user-agree">
+                    Пользовательское соглашение
+                </div>
+                <div class="footer__social-links">
+                    <div class="footer__social-item">
+                        <a href="#!" class="footer_social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="132" height="23" viewBox="0 0 132 23" fill="none">
+                                <g clip-path="url(#clip0_483_3917)">
+                                <path d="M14.7881 6.69742H0.277344V23.0008H4.31613V17.6967H12.0552L15.586 23.0008H20.1085L16.2147 17.6723C17.424 17.4766 18.2947 17.0122 18.8267 16.2789C19.3588 15.5457 19.6248 14.3724 19.6248 12.8081V11.5859C19.6248 10.657 19.528 9.92379 19.3588 9.3616C19.1894 8.79941 18.8993 8.31053 18.4881 7.87068C18.0527 7.4551 17.5692 7.16171 16.9888 6.96622C16.4083 6.79517 15.6827 6.69742 14.7878 6.69742H14.7881ZM14.1351 14.1035H4.31598V10.2905H14.1353C14.6915 10.2905 15.0784 10.3882 15.272 10.5593C15.4651 10.7303 15.586 11.0482 15.586 11.5126V12.8814C15.586 13.3702 15.4651 13.6881 15.2717 13.8591C15.0782 14.0302 14.6912 14.1035 14.1351 14.1035ZM25.5667 18.1854V6.69727H21.5279V18.0877C21.5279 19.0166 21.6005 19.7743 21.7697 20.3365C21.939 20.9231 22.2293 21.412 22.6646 21.8275C23.0756 22.2674 23.5594 22.5608 24.1398 22.7318C24.7202 22.9275 25.4458 23.0008 26.3648 23.0008H36.0385C36.9334 23.0008 37.6589 22.9275 38.2394 22.7318C38.8198 22.5608 39.3035 22.2674 39.7388 21.8275C40.1499 21.412 40.4402 20.9231 40.6094 20.3365C40.7786 19.7743 40.8755 19.0166 40.8755 18.0877V6.69727H36.8366V18.1854C36.8366 18.6743 36.7157 18.9922 36.5223 19.1632C36.3288 19.3343 35.9418 19.4077 35.3856 19.4077H27.0177C26.4373 19.4077 26.0504 19.3343 25.8569 19.1632C25.6634 18.9922 25.5667 18.6743 25.5667 18.1854ZM54.5377 23.0008V10.2905H62.3493V6.69742H42.6873V10.2903H50.4989V23.0008H54.5377ZM68.1986 18.1854V6.69727H64.1599V18.0877C64.1599 19.0166 64.2324 19.7743 64.4018 20.3365C64.571 20.9231 64.8612 21.412 65.2965 21.8275C65.7077 22.2674 66.1914 22.5608 66.7719 22.7318C67.3523 22.9275 68.0778 23.0008 68.9968 23.0008H78.6706C79.5653 23.0008 80.2908 22.9275 80.8713 22.7318C81.4517 22.5608 81.9354 22.2674 82.3708 21.8275C82.7819 21.412 83.0721 20.9231 83.2415 20.3365C83.4107 19.7743 83.5074 19.0166 83.5074 18.0877V6.69727H79.4686V18.1854C79.4686 18.6743 79.3477 18.9922 79.1542 19.1632C78.9607 19.3343 78.5737 19.4077 78.0175 19.4077H69.6498C69.0694 19.4077 68.6824 19.3343 68.4889 19.1632C68.2954 18.9922 68.1986 18.6743 68.1986 18.1854ZM103.975 11.4393V11.1215C103.975 9.60612 103.588 8.48174 102.814 7.77293C102.041 7.06397 100.807 6.69742 99.1627 6.69742H85.4501V23.0008H99.9607C101.605 23.0008 102.839 22.6585 103.613 21.9497C104.386 21.2409 104.773 20.1165 104.773 18.601V18.2589C104.773 16.7434 104.386 15.6679 103.613 15.0324C103.467 14.9346 103.322 14.8613 103.177 14.788C102.973 14.6867 102.763 14.5969 102.548 14.5191C103.081 14.2258 103.443 13.8347 103.661 13.3947C103.854 12.9548 103.975 12.2947 103.975 11.4393ZM89.4889 13.2236V10.2905H98.5097C99.0901 10.2905 99.477 10.3882 99.6705 10.5593C99.864 10.7303 99.9607 11.0482 99.9607 11.5126V12.0013C99.9607 12.4904 99.864 12.8081 99.6705 12.9791C99.477 13.1503 99.0901 13.2235 98.5097 13.2235L89.4889 13.2236ZM89.4889 19.4077V16.4744H99.3319C99.8881 16.4744 100.275 16.5723 100.469 16.7434C100.662 16.9144 100.783 17.2323 100.783 17.6967V18.1854C100.783 18.6743 100.662 18.9922 100.469 19.1632C100.275 19.3343 99.8881 19.4077 99.3319 19.4077H89.4889ZM110.252 10.2905H123.456V6.69742H106.213V23.0008H124.109V19.4077H110.252V16.6456H123.142L123.456 13.0526H110.252V10.2905Z" fill="white"/>
+                                <path d="M128.896 5.7124C130.457 5.7124 131.722 4.43364 131.722 2.8562C131.722 1.27876 130.457 0 128.896 0C127.336 0 126.07 1.27876 126.07 2.8562C126.07 4.43364 127.336 5.7124 128.896 5.7124Z" fill="white"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_483_3917">
+                                <rect width="132" height="23" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer__social-item">
+                        <a href="#!" class="footer_social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <g clip-path="url(#clip0_483_3911)">
+                                <path d="M24 0.75C11.1555 0.75 0.75 11.157 0.75 24C0.75 36.843 11.157 47.25 24 47.25C36.8445 47.25 47.25 36.843 47.25 24C47.25 11.157 36.843 0.75 24 0.75ZM35.4195 16.6785L31.6035 34.6605C31.3215 35.9355 30.5625 36.2445 29.5035 35.6445L23.691 31.3605L20.8875 34.0605C20.5785 34.3695 20.316 34.632 19.716 34.632L20.1285 28.716L30.9 18.984C31.3695 18.5715 30.7965 18.3375 30.177 18.75L16.8645 27.1305L11.127 25.3395C9.8805 24.9465 9.852 24.093 11.3895 23.493L33.8055 14.8485C34.8465 14.4735 35.7555 15.102 35.418 16.677L35.4195 16.6785Z" fill="white"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_483_3911">
+                                <rect width="48" height="48" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer__social-item">
+                        <a href="#!" class="footer_social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="49" viewBox="0 0 50 49" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.00061 3.01233C0.626476 6.38647 1.00061 12.1512 1.00061 23.0123V25.0123C1.00061 35.8735 0.626476 41.6382 4.00061 45.0123C7.37475 48.3864 13.1395 48.0123 24.0006 48.0123H26.0006C36.8618 48.0123 42.6264 48.3864 46.0006 45.0123C49.3747 41.6382 49.0006 35.8735 49.0006 25.0123V23.0123C49.0006 12.1512 49.3747 6.38647 46.0006 3.01233C42.6264 -0.361805 36.8618 0.0123263 26.0006 0.0123263H24.0006C13.1395 0.0123263 7.37475 -0.361805 4.00061 3.01233ZM9.00061 15.0123C9.26058 27.4923 16.0606 35.0123 27.0006 35.0123V27.0123C31.0206 27.4123 33.7806 31.2124 35.0006 35.0123H41.0006C39.4406 29.3323 35.5606 26.2123 33.0006 25.0123C35.5606 23.5323 39.1406 19.8923 40.0006 15.0123H35.0006C33.8806 18.9723 30.1606 22.6723 27.0006 23.0123V15.0123H22.0006V28.0123C18.8006 27.2124 15.1806 24.1723 15.0006 15.0123H9.00061Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
