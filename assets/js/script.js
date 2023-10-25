@@ -9,7 +9,7 @@ $(document).ready(function(){
             '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29" fill="none"> <path d="M1.79666 14.5L26.0002 14.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/> <path d="M13.8984 2.00001L25.3046 13.7815C25.6888 14.1783 25.6888 14.8217 25.3046 15.2185L13.8984 27" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/> </svg>'
         ],
         dots: false,
-        /* autoplay: true, */
+        autoplay: true,
         autoplayTimeout: 5000,
         smartSpeed: 250,
         items: 1,
@@ -29,7 +29,7 @@ $(document).ready(function(){
             '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29" fill="none"> <path d="M1.79666 14.5L26.0002 14.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/> <path d="M13.8984 2.00001L25.3046 13.7815C25.6888 14.1783 25.6888 14.8217 25.3046 15.2185L13.8984 27" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/> </svg>'
         ],
         dots: false,
-        /* autoplay: true, */
+        autoplay: true,
         autoplayTimeout: 5000,
         smartSpeed: 250,
         items: 1,
@@ -49,7 +49,7 @@ $(document).ready(function(){
             '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29" fill="none"> <path d="M1.79666 14.5L26.0002 14.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/> <path d="M13.8984 2.00001L25.3046 13.7815C25.6888 14.1783 25.6888 14.8217 25.3046 15.2185L13.8984 27" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/> </svg>'
         ],
         dots: false,
-       /*  autoplay: true, */
+        autoplay: true,
         autoplayTimeout: 5000,
         smartSpeed: 250,
         margin: 30,
