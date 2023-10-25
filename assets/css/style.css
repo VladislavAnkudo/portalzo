@@ -994,9 +994,17 @@ body{
 .header__menu{
     display: block;
 }
-.burger{
+.burger-menu{
     display: none;
+    cursor: pointer;
 }
+.burger-menu .bar {
+    width: 26px;
+    height: 2px;
+    background-color: #13247A;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
 @media (max-width: 991px) {
     .container{
         max-width: 754px;
@@ -1029,15 +1037,60 @@ body{
     }
     
 }
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    right: -320px; 
+    width: 320px;
+    height: 100%;
+    background: #fff; 
+    transition: right 0.3s ease;
+    z-index: 9999;
+    display: none;
+}
+.mobile-menu {
+    padding: 20px;
+    padding-top: 65px;
+}
 @media (max-width: 1199px) {
+    .mobile-header__action{
+        display: flex;
+        padding-left: 20px;
+        gap: 25px;
+    }
+    .mobile-menu-list{
+        margin: 0;
+        padding: 0;
+    }
+    .mobile-menu-item{
+        list-style-type: none;
+    }
+    .menu-overlay{
+        display: block;
+    }
     .header__action{
         display: none;
     }
     .header__menu{
         display: none;
     }
-    .burger{
+    .burger-menu{
         display: block;
+        
+    }
+    .burger-menu.active{
+        position: fixed;
+        z-index: 99999;
+        right: 15px;
+    }
+    .burger-menu.active .bar:nth-child(1) {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    .burger-menu.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+    .burger-menu.active .bar:nth-child(3) {
+      transform: rotate(45deg) translate(-5px, -6px);
     }
     .events__area-element{
         max-width: 300px;
@@ -1238,6 +1291,178 @@ body{
         line-height: 100%;
         letter-spacing: -0.3px;
     }
+    .festival__slide-title{
+        font-size: 20px;
+        line-height: 120%; 
+        letter-spacing: -0.2px;
+        max-width: 249px;
+        margin-bottom: 11px;
+    }
+    .festival__slide-city {
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: -0.12px;
+    }
+    .festival__date{
+        padding: 5px 14.5px;
+        bottom: auto;
+        top: 130px;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 108%;
+    }
+    .festival .owl-theme .owl-nav {
+        bottom: 15px;
+    }
+    .festival__texts-afisha{
+        padding: 6.414px 10.903px;
+        border-radius: 64.138px;
+        border: 0.641px solid #FFF;
+        font-size: 10px;
+        line-height: 108%;
+        bottom: -570px;
+        right: 15px;
+    }
+    .routes__area-title{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: -0.14px;
+    }
+    .routes__area-subtitle{
+        font-size: 30px;
+        line-height: 100%;
+        letter-spacing: -0.3px;
+    }
+    .router__area-texts-title{
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: -0.2px;
+    }
+    .router__area-texts-subtitle{
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: -0.14px;
+    }
+    .routes__area-button{
+        padding: 16px 36px;
+    }
+    .routes__area-button-link{
+        font-size: 13px;
+        line-height: 100%; 
+    }
+    .media__texts-wrapper{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 525px;
+        margin-bottom: 100px;
+    }
+    .media .owl-theme .owl-nav{
+        bottom: 43px;
+        top: auto;
+        right: 0;
+        left: 0;
+    }
+    .media__text-button{
+        display: none;
+    }
+    .media {
+        margin-top: 77px;
+        margin-bottom: 83px;
+    }
+    .media__name{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: -0.14px;
+    }
+    .media__text-title{
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: -0.2px;
+    }
+    .media__text-subtitle{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: -0.14px;
+        max-width: 320px;
+    }
+    .usefull__information-title{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: -0.14px;
+    }
+    .usefull__information-subtitle{
+        font-size: 30px;
+        line-height: 100%;
+        letter-spacing: -0.3px;
+    }
+    .usefull__information-description{
+        max-width: 347px;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: -0.14px;
+    }
+    .usefull__informantion-element{
+        width: 100%;
+    }
+    .usefull__information-extra-title{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 124%;
+    }
+    .usefull__information-extra-subtitle{
+        max-width: 331px;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: -0.14px;
+    }
+    .usefull__information-extra-link{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 124%;
+    }
+    .usefull__informantion-elements{
+        margin-top: 50px;
+        margin-bottom: 54px;
+    }
+    .place__relax-background-image {
+        height: 783px;
+    }
+    .place__relax-chill{
+        font-size: 22px;
+        line-height: 108%;
+    }
+    .place__relax-live{
+        font-size: 22px;
+        line-height: 108%;
+    }
+    .place__relax-subcribe{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: -0.14px;
+        max-width: 295px;
+        margin-top: 175px;
+    }
+    .place__relax-button{
+        padding: 12.768px 28.728px;
+        font-size: 12px;
+        line-height: 100%;
+        width: 100%;
+    }
+    .place__relax-news{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: -0.14px;
+        max-width: 222px;
+    }
+    .place__relax-input-mail{
+        width: 100%;
+    }
     .area__text-title {
         font-size: 30px;
         line-height: 100%;
@@ -1282,9 +1507,6 @@ body{
         margin-bottom: 15px;
         max-width: 100%;
         letter-spacing: -0.3px;
-    }
-    .place__relax-input-mail{
-        width: 342px;
     }
     .tourist__subtitle {
         font-size: 30px;
@@ -1355,10 +1577,23 @@ body{
         margin-top: 30px;
     }
     .events__area-link {
-        font-size: 18px;
+        font-size: 15px;
         line-height: 100%;
     }
     .routes__area {
         padding-top: 144px;
+    }
+    .footer__nav {
+        display: none;
+    }
+    .footer__wrapper{
+        justify-content: center;
+    }
+    .footer__information-user-agree{
+        max-width: 100%;
+    }
+    .footer__information{
+        gap: 15px;
+        margin-top: 15px;
     }
 }

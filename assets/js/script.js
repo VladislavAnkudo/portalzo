@@ -67,3 +67,21 @@ $(document).ready(function(){
         }
     });
 });
+
+
+
+const burgerMenu = document.querySelector('.burger-menu');
+const menuOverlay = document.querySelector('.menu-overlay');
+
+// Функция для открытия и закрытия меню
+function toggleMenu() {
+    burgerMenu.classList.toggle('active');
+    if (burgerMenu.classList.contains('active')) {
+        menuOverlay.style.right = '0'; // Открываем меню
+    } else {
+        menuOverlay.style.right = '-320px'; // Закрываем меню
+    }
+}
+
+// Слушатель события клика на бургер-меню
+burgerMenu.addEventListener('click', toggleMenu);
